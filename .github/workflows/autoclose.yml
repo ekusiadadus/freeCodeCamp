@@ -10,7 +10,7 @@ jobs:
   autoclose:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/github-script@7a5c598405937d486b0331594b5da2b14db670da # tag=v6
+      - uses: actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410 # v6
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
